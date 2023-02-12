@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.nenu.nenumall</groupId>
+    <artifactId>nenumall</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>nenumall</name>
+    <description>聚合模块</description>
+    <packaging>pom</packaging>
+    <modules>
+        <module>nenumall-coupon</module>
+        <module>nenumall-member</module>
+        <module>nenumall-order</module>
+        <module>nenumall-ware</module>
+        <module>nenumall-product</module>
+    </modules>
+</project>
